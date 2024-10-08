@@ -1,0 +1,20 @@
+{
+	"dependencies": {
+	},
+	"name": "vrcoscjs-plugin-template",
+	"version": "1.0.0",
+	"description": "Plugin tempate for the 'VRChat osc thing'.",
+	"main": "src/index.js",
+	"author": "MeltyMooncakes",
+	"license": "MIT",
+	"private": true,
+	"scripts": {
+		"start": "node ./dist/index.js",
+		"test": "tsc && pnpm start",
+		"build": "pnpm install && tsc"
+	},
+	"devDependencies": {
+		"@types/node": "^22.5.5",
+		"typescript": "^5.6.2"
+	}
+}
