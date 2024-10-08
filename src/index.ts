@@ -9,4 +9,8 @@ export class Plugin {
 	async start() {
 		console.log("started")
 	};
+
+	async formatMessage(message: string): Promise<string> {
+		return message;
+	}
 }
