@@ -7,6 +7,8 @@
 	"author": "MeltyMooncakes",
 	"license": "MIT",
 	"private": true,
-	"scripts": {},
+	"scripts": {
+		"build": "tsc"
+	},
 	"devDependencies": {}
 }
