@@ -7,10 +7,6 @@
 	"author": "MeltyMooncakes",
 	"license": "MIT",
 	"private": true,
-	"scripts": {
-		"start": "node ./dist/index.js",
-		"test": "tsc && pnpm start",
-		"build": "pnpm install && tsc"
-	},
+	"scripts": {},
 	"devDependencies": {}
 }
